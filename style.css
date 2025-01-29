@@ -62,7 +62,11 @@ header {
     width: 65%;
     border-radius: 10px;
   }
-
+  .truncate {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
   .btn {
     display: inline-block;
     margin-top: 10px;
